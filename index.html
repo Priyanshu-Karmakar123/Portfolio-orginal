@@ -5,41 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
 </head>
 <body> 
-    <p><h1><i>Priyanshu Karmakar</i></h1>
-    <i><h4>Bansdroni, Kolkata, India</h4> </i></p>
-    <a href="./public/about.html"><img src="./assets/images/MY_IMAGE.jpeg" height="150" width="150" alt="Priyanshu's Photo"></a>
-    <br/>
-    <a href="./public/contact.html">Contact Me</a>
-    <hr>
-    <p><h2><i>Summary</i></h2>Hi, I am Priyanshu Karmakar. I like to solve and do research on Theoritical Mathematics and Computer Sc 
-        Problems. I am eager to use my theory knowledege in pratical scenarios which will help my clients.
-         </p><hr>
-    <p><h2><i>Education</i></h2>
-    <ol>
-        <li><u>Bachelor of Technology:</u> 95.4%, 2019-2023, <i>Kalinga Institute of Industrial
-            Technology, Bhubaneswar, Odissa</i></li>
-        </i></u></li>
-        <li><u>Higher Secondary:</u> 85%, 2019, Patha Bhavan, Kolkata</li>
-        <li><u>Secondary Education:</u> 86% 2017 Patha Bhavan, Kolkata</li>
-    </ol></p><hr>
-    <p><h2><i>Skills</i></h2></p>
-    <ul>
-        <li>C-Programming language</li>
-        <li>Python</li>
-        <li>Sql</li>
-        <li>Plsql</li>
-        <li>HTML, CSS, JS</li>
+    
+    <div class="container">
+        <div class="first"><a href="./public/contact.html">Contact Me</a></div>
+        <div class="second"><a href="./public/about.html">About Me</a></div>        
+        <div class="third"><a href="#summ">Summary</a></div>
+        <div class="fourth"><a href="#edu">Education</a></div>
+        <div class="fifth"><a href="#skills">Skills</a></div>
+        <div class="sixth"><a href="#award">Awards</a></div>
 
-    </ul><hr>
-    <p><h2><i>Awards</i></h2></p>
-    <ul>
-        <li>Highest Marks in Statistics Class 12 HS Exam, 2019 </li>
-        <li>Young Innovative Minds award by Pathfinder, 2015</li>
-    </ul>
-    <footer>
-        Copyright &copy; Prianshu Karmakar 2023
-    </footer>
+    </div>
+    <div class="intro">
+        <a href="./public/about.html"><img src="./assets/images/MY_IMAGE.jpeg" height="150" width="150" alt="Priyanshu's Photo"></a>
+        <p id="name"><h1><i>Portfolio of Priyanshu Karmakar</i></h1>
+            <i><h4 id="addr">BTech, Kolkata, India</h4> </i></p>
+    </div>
+
+    <div class="main">
+        <br>
+
+        <hr>
+        <p id="summ"><h2><i>Summary</i></h2>Hi, I am Priyanshu Karmakar. I like to solve and do research on Theoritical Mathematics and Computer Sc 
+            Problems. I am eager to use my theory knowledege in pratical scenarios which will help my clients.
+            </p><hr>
+        <p id="edu"><h2><i>Education</i></h2>
+        <ol>
+            <li><u>Bachelor of Technology:</u> 95.4%, 2019-2023, <i>Kalinga Institute of Industrial
+                Technology, Bhubaneswar, Odissa</i></li>
+            </i></u></li>
+            <li><u>Higher Secondary:</u> 85%, 2019, Patha Bhavan, Kolkata</li>
+            <li><u>Secondary Education:</u> 86% 2017 Patha Bhavan, Kolkata</li>
+        </ol></p><hr>
+        <p id="skills"><h2><i>Skills</i></h2></p>
+        <ul>
+            <li>C-Programming language</li>
+            <li>Python</li>
+            <li>Sql</li>
+            <li>Plsql</li>
+            <li>HTML, CSS, JS</li>
+
+        </ul><hr>
+        <p id="award"><h2><i>Awards</i></h2></p>
+        <ul>
+            <li>Highest Marks in Statistics Class 12 HS Exam, 2019 </li>
+            <li>Young Innovative Minds award by Pathfinder, 2015</li>
+        </ul>
+        <hr>
+        <footer>
+            Copyright &copy; Prianshu Karmakar 2023
+        </footer>
+    </div>
 </body>
 </html>
