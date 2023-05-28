@@ -1,0 +1,35 @@
+body{
+    background-color:lightgray
+}
+.intro{
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 30px;;
+}
+.container{
+
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: gold;
+    display: inline-flex;
+    gap:200px;
+    margin:5px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    float: left;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+#addr{
+    text-align: center;
+}
+.main{
+    clear: left;
+}
+footer{
+    text-align: center;
+}
